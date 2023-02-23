@@ -1,0 +1,15 @@
+{   "name": "Product 1",    "description": "This is product 1",    "price": 10,    "image": "https://picsum.photos/id/1/200/200"  }
+
+{
+  "Book": {
+    "_": {
+      "items": 10
+    }
+  },
+  "name": {"string":{}},
+  "description": {"loremWords": { "minLength": 5, "maxLength": 20 }},
+  "price":  { "int": { "min": 2, "max": 500 } },
+    "image": {
+    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+  }
+}
