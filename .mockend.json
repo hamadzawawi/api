@@ -1,7 +1,5 @@
-{   "name": "Product 1",    "description": "This is product 1",    "price": 10,    "image": "https://picsum.photos/id/1/200/200"  }
-
 {
-  "Book": {
+  "Products": {
     "_": {
       "items": 10
     }
