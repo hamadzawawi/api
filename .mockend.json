@@ -2,8 +2,7 @@
   "Products": {
     "_": {
       "items": 10
-    }
-  },
+    },
   "name": {"string":{}},
   "description": {"loremWords": { "minLength": 5, "maxLength": 20 }},
   "price":  { "int": { "min": 2, "max": 500 } },
